@@ -1,0 +1,105 @@
+preencher nova matriz
+
+Nova matriz 
+Selecionar na base cargos o campo
+ Cargo
+e depois da base funcionarios o campo
+ total de salario
+total de dias trabalhados
+e salario por dia de trabalho
+
+COUNTROWs conta todas as medidas da 
+base
+
+outra forma de fazer contagem de 
+funcionarios:
+COUNT vai contar todos os valores 
+numericos de uma coluna
+(adendo se os valores se repetirem)
+
+COUNT A vai contar pelo valor - data
+- nome tudo
+
+DISTINCTCOUNT apenas dados diferentes
+
+Vamos criar outra matriz em baixo do 
+setor responsavel 
+
+Inserir uma nova matriz
+
+Começar por Area
+
+Base cargos
+
+Com a matriz selecionada quantidade 
+de funcionarios > BaseFuncionarios
+
+VAMOS FAZER UMA NOVA MEDIDA
+
+na base funcionarios
+fazer nova medida chamada:
+Quantidade de funcionarios Atuais
+
+ela vai ser igual a quantidade de
+ funcionarios menos a quantidade
+de funcionarios demitidos
+
+
+se contarmos pela data de demissão 
+tambem da certo
+
+vamos criar uma outra medida com função
+de filtragem
+
+focar no salario por cargo
+
+usar uma função chamada: CALCULATE
+selecionar a base funcionarios
+NOVA MEDIDA > "Total salario Atual"
+
+Usar função = Calculate
+
+Expressão Calculate
+
+Total Salario atual = Calculate salario total
+situação funcionario = ativo 
+
+renomear a pagina um para funcionarios
+criar uma nova pagina chamada clientes
+
+na base funcionarios criar nova medida
+que servira para totalizar os clientes
+
+nova medida 
+qntd clientes = countrows base cliente
+
+adicionar nova matriz 
+selecionar primeiro area do base cargos
+e selecionar quantidade clientes que
+acabamos de criar
+
+agora vamos selecionar grafico de base 
+pilhada
+
+selecionar base cargos
+campo area
+selecionar quantidade de clientes
+
+quando selecionamos o grafico
+nas manipulações
+mapilar eixo y x 
+
+alem de selecionar a baseclientes
+selecionar o campo é critico
+
+na aba visualização
+
+formatar o visual
+rotulo e area
+começamos a contar historia com dados
+
+valor total de contratos
+por area 
+é critico
+
+
